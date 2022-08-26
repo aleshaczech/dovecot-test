@@ -1,0 +1,5 @@
+introspection_url = https://localhost/api/oauth2/introspection
+introspection_mode = auth
+use_grant_password = no
+username_attribute = sub
+pass_attrs = pass=%{oauth2:access_token}

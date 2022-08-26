@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  dovecot:
+    build: "."
+    ports:
+      - "587:587"
